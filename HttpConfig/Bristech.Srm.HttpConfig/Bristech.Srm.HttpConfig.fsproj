@@ -9,10 +9,11 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Bristech.Srm.HttpConfig</RootNamespace>
     <AssemblyName>Bristech.Srm.HttpConfig</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Name>Bristech.Srm.HttpConfig</Name>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -57,6 +58,7 @@
     <Compile Include="Serialization.fs" />
     <Compile Include="Startup.fs" />
     <Content Include="packages.config" />
+    <None Include="Bristech.Srm.HttpConfig.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
