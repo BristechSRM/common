@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Bristech.Srm.HttpConfig</id>
-    <version>0.1.1.0</version>
+    <version>0.1.2.0</version>
     <title>Bristech OWIN self host configuration</title>
     <authors>Scott Logic RnD DevOps Team</authors>
     <owners></owners>
