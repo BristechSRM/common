@@ -8,9 +8,9 @@ open System.Runtime.InteropServices
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [<assembly: AssemblyTitle("Bristech.Srm.HttpConfig")>]
-[<assembly: AssemblyDescription("")>]
+[<assembly: AssemblyCompany("Scott Logic RnD DevOps Team")>]
+[<assembly: AssemblyDescription("Microservice common code for setting up an OWIN self host")>]
 [<assembly: AssemblyConfiguration("")>]
-[<assembly: AssemblyCompany("")>]
 [<assembly: AssemblyProduct("Bristech.Srm.HttpConfig")>]
 [<assembly: AssemblyCopyright("")>]
 [<assembly: AssemblyTrademark("")>]

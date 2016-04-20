@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Bristech.Srm.HttpConfig</id>
-    <version>0.1.2.0</version>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>$author$</authors>
+    <description>$description$</description>
     <title>Bristech OWIN self host configuration</title>
-    <authors>Scott Logic RnD DevOps Team</authors>
     <owners></owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Microservice common code for setting up an OWIN self host</description>
     <releaseNotes>Initial release</releaseNotes>
     <copyright></copyright>
     <tags>Bristech SRM OWIN</tags>
