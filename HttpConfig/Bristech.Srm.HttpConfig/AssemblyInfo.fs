@@ -8,9 +8,9 @@ open System.Runtime.InteropServices
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [<assembly: AssemblyTitle("Bristech.Srm.HttpConfig")>]
-[<assembly: AssemblyDescription("")>]
+[<assembly: AssemblyCompany("Scott Logic RnD DevOps Team")>]
+[<assembly: AssemblyDescription("Microservice common code for setting up an OWIN self host")>]
 [<assembly: AssemblyConfiguration("")>]
-[<assembly: AssemblyCompany("")>]
 [<assembly: AssemblyProduct("Bristech.Srm.HttpConfig")>]
 [<assembly: AssemblyCopyright("")>]
 [<assembly: AssemblyTrademark("")>]
@@ -34,8 +34,8 @@ open System.Runtime.InteropServices
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [<assembly: AssemblyVersion("1.0.*")>]
-[<assembly: AssemblyVersion("0.1.1.0")>]
-[<assembly: AssemblyFileVersion("0.1.1.0")>]
+[<assembly: AssemblyVersion("0.1.2.0")>]
+[<assembly: AssemblyFileVersion("0.1.2.0")>]
 
 do
     ()

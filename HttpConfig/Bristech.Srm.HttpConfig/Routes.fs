@@ -6,8 +6,8 @@ module Routes =
     open Serilog
 
     let configure (config : HttpConfiguration) =
-        let routes = config.Routes
-        let route = routes.MapHttpRoute("DefaultApi", "{controller}/{id}")
+        config.MapHttpAttributeRoutes()
+        let route = config.Routes.MapHttpRoute("DefaultApi", "{controller}/{id}")
         route.Defaults.Add("id", RouteParameter.Optional)
         Log.Information("Configured API routing")
         config
