@@ -10,6 +10,8 @@ module Serialization =
     let configure (config: HttpConfiguration) =
         config.Formatters.XmlFormatter.UseXmlSerializer <- true
 
+        config.Formatters.JsonFormatter.SerializerSettings.Converters.Add(OptionConverter())
+
         // The following lines are for controlling the serialisation of F# properties from Records and Unions
         config.Formatters.JsonFormatter.SerializerSettings.ContractResolver <- Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver ()
         config.Formatters.JsonFormatter.SerializerSettings.DateFormatHandling <- DateFormatHandling.IsoDateFormat
