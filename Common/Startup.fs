@@ -1,4 +1,4 @@
-﻿namespace Bristech.Srm.HttpConfig
+﻿namespace Common
 
 open Owin
 open System.Web.Http
