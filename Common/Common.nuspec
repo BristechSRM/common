@@ -5,11 +5,11 @@
     <version>$version$</version>
     <authors>$author$</authors>
     <description>$description$</description>
-    <title>Bristech OWIN self host configuration</title>
+    <title>Bristech SRM Common</title>
     <owners></owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>Initial release</releaseNotes>
     <copyright></copyright>
-    <tags>Bristech SRM OWIN</tags>
+    <tags>Bristech SRM Common</tags>
   </metadata>
 </package>
