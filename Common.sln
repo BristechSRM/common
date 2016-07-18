@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Common", "Common\Common.fsproj", "{499D85DF-DB07-449A-8032-3E0517C181B8}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "JsonConverters", "JsonConverters\JsonConverters.fsproj", "{352555D6-6FFE-49A4-B3B9-5FAC7B153568}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{499D85DF-DB07-449A-8032-3E0517C181B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{499D85DF-DB07-449A-8032-3E0517C181B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{499D85DF-DB07-449A-8032-3E0517C181B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{352555D6-6FFE-49A4-B3B9-5FAC7B153568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{352555D6-6FFE-49A4-B3B9-5FAC7B153568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{352555D6-6FFE-49A4-B3B9-5FAC7B153568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{352555D6-6FFE-49A4-B3B9-5FAC7B153568}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
