@@ -6,6 +6,7 @@ module Serialization =
     open Newtonsoft.Json
     open System.Net.Http.Headers
     open Serilog
+    open JsonConverters
 
     let configure (config: HttpConfiguration) =
         config.Formatters.XmlFormatter.UseXmlSerializer <- true

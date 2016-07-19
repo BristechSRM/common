@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>$author$</authors>
+    <description>$description$</description>
+    <title>Bristech SRM JsonConverters</title>
+    <owners></owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright></copyright>
+    <tags>Bristech SRM JsonConverters</tags>
+  </metadata>
+</package>
